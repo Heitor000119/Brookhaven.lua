@@ -1,2 +1,0 @@
-# Brookhaven.lua
-Sla
