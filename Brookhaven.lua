@@ -11,7 +11,7 @@ local Window = Libary:MakeWindow({
     Flags = "KultistHub_Broookhaven"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://131669852271916", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://948028207", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -20,9 +20,9 @@ local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://1530913847
 
 
 InfoTab:AddSection({ "Script Information" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Luscaa and venom." })
-InfoTab:AddParagraph({ "Collaborations:", "Blue, sukuna, Magekko, Darkness, Star, Toddy" })
-InfoTab:AddParagraph({ "You are using:", "Chaos Hub Brookhaven " })
+InfoTab:AddParagraph({ "Owner / Developer:", "Heitor." })
+InfoTab:AddParagraph({ "Collaborations:", "Blue, Nicolas, Pietro, Davi, Star, Toddy" })
+InfoTab:AddParagraph({ "You are using:", "Kultist Hub Brookhaven " })
 InfoTab:AddParagraph({"Your executor:", executor})
 
 InfoTab:AddSection({ "Rejoin" })
